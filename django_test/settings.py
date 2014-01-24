@@ -60,7 +60,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'django_test.urls'
 
 WSGI_APPLICATION = 'django_test.wsgi.application'
-CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.math_challenge'
+#CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.math_challenge'
 #CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.word_challenge'
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases

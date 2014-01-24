@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa002de1-2f54-47b1-9ebc-2e5dfd73d525" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyselfApp/forms.py" afterPath="$PROJECT_DIR$/MyselfApp/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_test/settings.py" afterPath="$PROJECT_DIR$/django_test/settings.py" />
     </list>
     <ignored path="django_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_test/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1957">
+            <state line="63" column="0" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.43678162" vertical-offset="969" max-vertical-offset="1957">
               <folding />
             </state>
           </provider>
@@ -49,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyselfApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="51" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.49042144" vertical-offset="542" max-vertical-offset="1064">
+            <state line="48" column="51" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="1064">
               <folding />
             </state>
           </provider>
@@ -140,7 +140,6 @@
     <option name="changedFiles">
       <list>
         <option value="E:/Python27/Lib/site-packages/captcha/fields.py" />
-        <option value="$PROJECT_DIR$/django_test/settings.py" />
         <option value="$PROJECT_DIR$/sendmail_py.py" />
         <option value="$PROJECT_DIR$/sendtest.py" />
         <option value="$PROJECT_DIR$/sendmail_dong.py" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/sendmail.py" />
         <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/MyselfApp/forms.py" />
+        <option value="$PROJECT_DIR$/django_test/settings.py" />
       </list>
     </option>
   </component>
@@ -717,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_test/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django_test/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="26" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
@@ -782,7 +775,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyselfApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="51" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.49042144" vertical-offset="542" max-vertical-offset="1064">
+        <state line="48" column="51" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="1064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_test/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.43678162" vertical-offset="969" max-vertical-offset="1957">
           <folding />
         </state>
       </provider>
