@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script type="text/javascript" src="/static/js/jwplayer.js" ></script>
+<script type="text/javascript" src="/static/js/jwplayer.html5.js" ></script>
+<div id="myElement">Loading the player ...</div>
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+        'flashplayer': '/static/swf/jwplayer.flash.swf',
+        'file': '{{ filepath }}',
+        'controlbar': 'bottom',
+        'streamer': '{{ rtmp_path }}',
+        'height' : 360,
+        //image: "/uploads/example.jpg",
+        'width': 640
+    });
+</script>
+
+</body>
+</html>

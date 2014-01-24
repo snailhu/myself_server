@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media play test</title>
+</head>
+<body>
+{% if success %}
+    <h1>可以</h1>
+{% endif %}
+<form enctype="multipart/form-data" action="/upload/file/" method="post">
+    <span>上传视频</span>：
+    <input type="file" name="upload_file">
+    <input type="submit">
+</form>
+
+</body>
+</html>
