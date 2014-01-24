@@ -1,6 +1,6 @@
 #coding:utf-8
-from captcha.helpers import captcha_image_url
-from captcha.models import CaptchaStore
+#from captcha.helpers import captcha_image_url
+#from captcha.models import CaptchaStore
 from django.core.context_processors import csrf
 from django.http import HttpResponse
 
