@@ -36,7 +36,7 @@ from django.views.decorators.csrf import csrf_exempt, csrf_protect
 def index(request):
      return render_to_response('index.html')
 
-FILE_PATH = '/root/red5-1.0.0/webapps/oflaDemo/streams/'
+FILE_PATH = '/root/red5/webapps/oflaDemo/streams/'
 RTMP_PATH = 'rtmp://192.168.1.165/oflaDemo'
 @csrf_exempt
 def upload_file(request):

@@ -1,42 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>验证码</title>
-    <script></script>
-</head>
-<body>
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#    <title>验证码</title>#}
+{#    <script></script>#}
+{#</head>#}
+{#<body>#}
 {#<p>#}
 {#    <label>验证（必填）</label>#}
 {#    <br/>#}
 {#    {{ form.captcha }}#}
 {#    <button id='js-captcha-refresh' type="button">刷新验证码</button>#}
 {#</p>#}
-
-<form action='.' method='POST' enctype="multipart/form-data">
-    {% csrf_token %}
-    <div class='js-captcha-refresh'>
-        {{ form }}
-    </div>
-
-    <button class='js-captcha-refresh'></button>
-    <input type="file" name="file">
-    <input type="submit" value="上传文件" />
-</form>
+{##}
+{#<form action='.' method='POST' enctype="multipart/form-data">#}
+{#    {% csrf_token %}#}
+{#    <div class='js-captcha-refresh'>#}
+{#        {{ form }}#}
+{#    </div>#}
+{##}
+{#    <button class='js-captcha-refresh'></button>#}
+{#    <input type="file" name="file">#}
+{#    <input type="submit" value="上传文件" />#}
+{#</form>#}
 {#<div>#}
 {#    <img class='js-captcha-refresh' src=" {{ cimageurl }}"/>#}
 {#</div>#}
-
-
-<script src="/static/js/jquery.min.js"></script>
-<script>
-    $('.js-captcha-refresh').click(function () {
-        $.get("/refresh/?newsn=1", function (result) {
-            //alert(result);
-            $('.captcha').attr("src", result);
-            $('#id_captcha_0').attr("value", result.split('/')[3]);
-        });
-        //return false;
-    });
-</script>
-</body>
-</html>
+{##}
+{##}
+{#<script src="/static/js/jquery.min.js"></script>#}
+{#<script>#}
+{#    $('.js-captcha-refresh').click(function () {#}
+{#        $.get("/refresh/?newsn=1", function (result) {#}
+{#            //alert(result);#}
+{#            $('.captcha').attr("src", result);#}
+{#            $('#id_captcha_0').attr("value", result.split('/')[3]);#}
+{#        });#}
+{#        //return false;#}
+{#    });#}
+{#</script>#}
+{#</body>#}
+{#</html>#}
